@@ -1,0 +1,415 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.brand-image {
+  border-radius: 50%;
+}
+
+.top {
+  background-image: url('../Images/dp1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container-fluid {
+  padding: 0 10%;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+  text-align: left;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  font-size: 1rem;
+}
+
+.nav-item {
+  padding: 0 7px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+/* -----  Heading  ----- */
+.greetings {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.profile {
+  padding-bottom: 20px;
+  font-size: 1.4rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.heading {
+  color: #fff;
+}
+
+.displayPicture {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#btnScrollToTop {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #e8505b;
+  box-shadow: -20px 10px 10px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+#btnScrollToTop:hover {
+  transform: scale(1.2);
+  opacity: 0.9;
+}
+
+#btnScrollToTop:focus {
+  outline: none;
+}
+
+#btnScrollToTop:active {
+  background-color: #cc2333;
+}
+
+
+/* -----  Portfolio  ----- */
+.featured {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.2rem;
+  padding: 40px 40px;
+  font-weight: 400;
+}
+
+.skills {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#portfolio {
+  padding: 5% 10%;
+  background-image: url('../Images/paper.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  font-family: 'Poppins', sans-serif;
+}
+}
+
+.feature-box {
+  padding: 0 15px;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.des-par {
+  font-size: 1rem;
+  color: #5B5B5B;
+  font-weight: 300;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #998C8C;
+}
+
+.icon:hover {
+  color: #444444;
+}
+
+/* -----  Testimonial  ----- */
+#testimonials {
+  padding-top: 3%;
+  padding-bottom: 5%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #484848;
+  color: #fff;
+}
+
+.creation {
+  font-size: 2.2rem;
+  padding: 0 40px;
+  padding-bottom: 40px;
+  font-weight: 400;
+  text-shadow: -20px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.testimonial-image {
+  height: 350px;
+  width: 250px;
+  box-shadow: -20px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-text {
+  font-size: 1.6rem;
+  font-weight: lighter;
+  padding-bottom: 30px;
+  text-shadow: -20px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.carousel-paragraph {
+  font-size: 1rem;
+  font-weight: lighter;
+  padding-top: 30px;
+  text-shadow: -20px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.carousel-item {
+  padding: 0 10%;
+}
+
+/* -----  Tech Skills  ----- */
+#development {
+  padding: 5% 10%;
+  background-image: url('../Images/paper.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.development-skilled {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.2rem;
+  padding: 50px 0;
+  font-weight: 400;
+}
+
+.programming-paragraph {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #5B5B5B;
+  font-weight: 300;
+}
+
+/* -----  About me  ----- */
+#about {
+  padding-top: 3%;
+  padding-bottom: 10%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #484848;
+  color: #fff;
+  text-shadow: -20px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.about-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.2rem;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+.about-me {
+  width: 50%;
+  margin: auto;
+}
+
+.bioPicture {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  float: left;
+  box-shadow: -30px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.bio-text {
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  padding-top: 50px;
+  padding-bottom: 8%;
+}
+
+.contact-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  clear: left;
+  margin-top: 50px;
+  box-shadow: -20px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact-icon {
+  color: #484848;
+}
+
+.contact-icon:hover {
+  color: #272727;
+}
+
+.contact-me:focus {
+  outline: none;
+}
+
+/* -----  Footer Section  ----- */
+#footer {
+  padding-top: 7%;
+  padding-bottom: 2%;
+  background-image: url('../Images/paper.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.icon-social {
+  margin: 25px 10px;
+}
+
+.social {
+  margin-top: 20px;
+  padding-top: 20px;
+  height: 70px;
+  width: 70px;
+  background-color: #e4e3e3;
+  box-shadow: -2px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  transition: all 0.3s linear;
+}
+
+.social:hover {
+  transform: scale(1.2);
+}
+
+.footer-text {
+  font-size: 1.1rem;
+  margin-top: 100px;
+}
+
+.footer-love {
+  color: #E54141;
+}
+
+.fa-twitter {
+  color: #0097e6;
+}
+
+.fa-instagram {
+  color: #e84393;
+}
+
+.fa-linkedin {
+  color: #0097e6;
+}
+
+/* -----  Media conditions  ----- */
+@media (max-width: 1028px) {
+  .development-skilled {
+    font-size: 3rem;
+  }
+
+  #development {
+    padding: 4% 2%;
+  }
+
+  #about {
+    padding: 5% 2%;
+  }
+
+  .about-me {
+    width: 90%;
+  }
+
+
+.contact-me {
+  margin-bottom: 50px;
+}
+
+.bioPicture{
+  margin-right: 0;
+  float:none;
+}
+
+  .featured {
+    font-size: 3rem;
+  }
+
+  .creation {
+    font-size: 3rem;
+  }
+
+  .greetings {
+    font-size: 4rem;
+  }
+
+  .name {
+    font-size: 4rem;
+  }
+
+  .profile {
+    font-size: 3rem;
+  }
+
+  .carousel-text {
+    font-size: 2.2rem;
+  }
+
+  .carousel-paragraph {
+    font-size: 1.8rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+
+  .des-par {
+    font-size: 1.6rem;
+  }
+
+  .skills {
+    font-size: 1.6rem;
+  }
+
+  .programming-paragraph {
+    font-size: 1.6rem;
+  }
+
+  .bio-text {
+    font-size: 1.6rem;
+  }
+
+  .footer-text {
+    font-size: 1.2rem;
+  }
+
+  .bio-text {
+    text-align: center;
+  }
+}
